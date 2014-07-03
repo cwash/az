@@ -1,5 +1,5 @@
 /**
- * CBW: Write me.
+ * Represents a line of input from the log file.
  *
  * @author Chris Wash <a href="mailto:chris.wash@gmail.com">chris.wash@gmail.com</a>
  */

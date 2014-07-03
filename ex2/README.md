@@ -44,7 +44,10 @@ or Scala that supports composed functions, (perhaps even Java8 and stream APIs, 
 overall solution could be delivered with less-terse code and in a more performant manner, by approaching the problem 
 from a distributed stream processing perspective.  Instead of having to populate data structures and iterate over them 
 in an imperative manner, a few functions could be composed that would eliminate the need for excessive looping.  Since 
-the problem space involves partitioning and projecting the data which functions are very handy tool to hvae.
+the problem space involves partitioning and projecting the data which functions are very handy tool to have.
+
+My other concerns with this approach are that it requires a lot of mutable data structures to be held in memory - I would
+prefer immutability, but don't feel its use is warranted in this setting without some functional primitives.
 
 Runtime Complexity
 ------------------
