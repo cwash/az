@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/az.iml" filepath="$PROJECT_DIR$/.idea/az.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex1/ex1.iml" filepath="$PROJECT_DIR$/ex1/ex1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ex2/ex2.iml" filepath="$PROJECT_DIR$/ex2/ex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex2-groovy/ex2-groovy.iml" filepath="$PROJECT_DIR$/ex2-groovy/ex2-groovy.iml" />
     </modules>
   </component>
 </project>

@@ -1,3 +1,7 @@
+package org.cwash.ex2;
+
+import org.cwash.ex2.Exercise2;
+import org.cwash.ex2.LogLine;
 import org.junit.Before;
 import org.junit.Test;
 

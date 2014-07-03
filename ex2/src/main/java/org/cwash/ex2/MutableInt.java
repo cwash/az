@@ -1,3 +1,5 @@
+package org.cwash.ex2;
+
 /**
  * State container for holding count values as individual int or Integer values in a
  * map would mean they need to be immutable.

@@ -1,3 +1,5 @@
+package org.cwash.ex2;
+
 /**
  * Represents a line of input from the log file.
  *
@@ -19,7 +21,7 @@ public class LogLine {
 
     @Override
     public String toString() {
-        return "LogLine{" +
+        return "org.cwash.ex2.LogLine{" +
                 "timestamp=" + timestamp +
                 ", customerId='" + customerId + '\'' +
                 ", pageType='" + pageType + '\'' +

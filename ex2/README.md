@@ -60,5 +60,5 @@ Approaches With Lower Runtime Complexity
 
 The runtime complexity could be reduced to O(n^2) by changing the innermost for loop into a 
 set of three individual calls to add permutation elements to the list that comprises a permutation.  However a for loop 
-was used on Exercise2.java line 57 and a parameter for sequenceSize extracted to demonstrate how larger or smaller 
+was used on org.cwash.ex2.Exercise2.java line 57 and a parameter for sequenceSize extracted to demonstrate how larger or smaller 
 sequenceSize could be used. 

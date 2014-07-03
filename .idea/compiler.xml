@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="ex1" />
         <module name="ex2" />
+        <module name="ex2-groovy" />
       </profile>
     </annotationProcessing>
   </component>

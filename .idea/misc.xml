@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/ex1/pom.xml" />
         <option value="$PROJECT_DIR$/ex2/pom.xml" />
+        <option value="$PROJECT_DIR$/ex2-groovy/pom.xml" />
       </list>
     </option>
   </component>
