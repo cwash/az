@@ -1,3 +1,5 @@
+package org.cwash.ex1;
+
 /**
  * Exercise 1 solution.
  *

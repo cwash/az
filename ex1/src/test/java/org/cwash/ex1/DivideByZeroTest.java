@@ -1,6 +1,10 @@
+package org.cwash.ex1;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
+import static org.cwash.ex1.Exercise1.*;
 
 public class DivideByZeroTest {
 
@@ -13,7 +17,7 @@ public class DivideByZeroTest {
         exception.expect(ArithmeticException.class);
         exception.expectMessage("/ by zero");
 
-        Exercise1.div(1,0);
+        div(1, 0);
 
 
     }
