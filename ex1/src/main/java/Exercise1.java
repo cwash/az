@@ -12,7 +12,11 @@ public class Exercise1 {
             throw new ArithmeticException("/ by zero");
         }
 
-        return 0;
+        /* check zero divisor */
+        if (num == 0) {
+            return 0;
+        }
+        return 1;
     }
 
 }
