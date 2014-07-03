@@ -30,4 +30,9 @@ public class QuotientTest {
         assertThat(Exercise1.div(1234522, 543255), is(2));
     }
 
+    @Test
+    public void testDivLargeNumbers() throws Exception {
+        assertThat(Exercise1.div(581234423, 58123), is(10000));
+    }
+
 }
