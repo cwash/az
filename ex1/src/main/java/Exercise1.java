@@ -17,26 +17,32 @@ public class Exercise1 {
             return 0;
         }
 
-        /* check for identity */
+        /* check identity */
         if (num == denom) {
             return 1;
         }
 
+        int limit = Math.abs(num);
+        int multiplier = Math.abs(denom);
         int register = 0;
         int count = 0;
 
-        while (num > register) {
+        /* check if quotient should be negative; XOR either operand is negative */
+        boolean isNegative = 0 > num ^ 0 > denom;
+
+        while (limit > register) {
 
             /* check for overflow */
-            if (denom + register > num) {
+            if (multiplier + register > limit) {
                 break;
             }
 
-            register += denom;
+            register += multiplier;
             count++;
         }
 
-        return count;
+        /* apply appropriate sign to quotient */
+        return isNegative ? count * -1 : count;
     }
 
 }

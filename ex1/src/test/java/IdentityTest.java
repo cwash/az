@@ -24,4 +24,9 @@ public class IdentityTest {
     public void testDivMinMin() throws Exception {
         assertThat(Exercise1.div(Integer.MIN_VALUE, Integer.MIN_VALUE), is(1));
     }
+
+    @Test
+    public void testDivNegativeIdentity() throws Exception {
+        assertThat(Exercise1.div(-1,-1), is(1));
+    }
 }
