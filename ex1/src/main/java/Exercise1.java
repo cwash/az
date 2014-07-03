@@ -16,7 +16,27 @@ public class Exercise1 {
         if (num == 0) {
             return 0;
         }
-        return 1;
+
+        /* check for identity */
+        if (num == denom) {
+            return 1;
+        }
+
+        int register = 0;
+        int count = 0;
+
+        while (num > register) {
+
+            /* check for overflow */
+            if (denom + register > num) {
+                break;
+            }
+
+            register += denom;
+            count++;
+        }
+
+        return count;
     }
 
 }
