@@ -1,10 +1,17 @@
 /**
- * CBW: Write me.
+ * Exercise 1 solution.
  *
  * @author Chris Wash <a href="mailto:chris.wash@gmail.com">chris.wash@gmail.com</a>
  */
 public class Exercise1 {
 
+    /**
+     * Reverse engineered '/' operator function
+     *
+     * @param num   divisor
+     * @param denom denominator
+     * @return      quotient
+     */
     public static int div(int num, int denom) {
 
         /* check divide by zero */
