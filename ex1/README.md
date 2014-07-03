@@ -4,12 +4,12 @@ Exercise 1
 Problem
 -------
 
-Reverse engineer Integer division
+Reverse engineer Integer division:
 * Can't use the '/' operator 
 * Ignore remainders
 * JDK is available for use
 
-Optimize for
+Optimize for:
 * Correctness
 * Runtime complexity
 * Coding best practices
